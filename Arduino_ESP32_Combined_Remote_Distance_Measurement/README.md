@@ -29,15 +29,23 @@ ESP32 Central Hub
 OLED SDA: GPIO 21
 
 OLED SCL: GPIO 22
+
 OLED VCC: 3.3V (Do not connect to 5V)
+
 OLED GND: GND
+
 LED Channels (1 to 8): GPIO 4, 5, 18, 19, 23, 27, 13, 12 
 
 Arduino Uno R4 WiFi Sensing Node 
+
 HC-SR04 Trig: Pin 10
+
 HC-SR04 Echo: Pin 11
+
 HC-SR04 VCC: 5V
+
 HC-SR04 GND: GND
+
 Local Alert LED: Pin 13 (Onboard LED) 
  
 Transistor Switch Circuit 
@@ -46,18 +54,27 @@ For each LED channel: 1. Connect ESP32 GPIO pin to a 1k ohm resistor, then to th
 Software Libraries Required 
 
 ESP32 Libraries 
+
   WebSockets by Markus Sattler
+  
   U8g2 by oliver
+  
   WiFi and WebServer (Included with ESP32 board package) 
 
 Arduino Uno R4 Libraries 
+
   WiFiS3 (Included with Arduino Uno R4 board package)WebSockets by Markus Sattler 
 
 
 How to Run 
 Flash the ESP32 code to the ESP32 board.
+
 Flash the Arduino Uno R4 code to the Uno R4 board.
+
 Power on the ESP32. It will create a Wi-Fi network called ESP32_CREED.
+
 Power on the Arduino Uno R4. It will automatically connect to the ESP32.
+
 Connect your phone or laptop to ESP32_CREED (Password: creedlab).
+
 Open your browser and go to http://192.168.4.1/ to view the web dashboard.
