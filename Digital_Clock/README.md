@@ -29,14 +29,18 @@ Designed for lunar tracking, this mode displays Moonrise and Moonset timings alo
 5. Night / Minimalist Mode 
 Optimized for bedside use, displaying time in a large-scale HH:MM:SS format alongside the date. To prevent sleep disruption, OLED intensity is programmatically dimmed to its lowest brightness level with minimal screen clutter.
 
-Hardware Connections & Pinout
-Component            ESP32 Pin              Function / Description
-SH1106 OLED VCC      3.3V                    Display Power Supply
-SH1106 OLED GND       GND                     Ground Reference
-SH1106 OLED SDA     GPIO 21                    I2C Data Line
-SH1106 OLED SCL     GPIO 22                    I2C Clock Line
-Touch Wire          GPIO 4 (D4)                 Capacitive Touch (Mode Switching)
-Boot Button         GPIO 0 (D0)               Integrated On-Board Button (Stopwatch Control) 
+Hardware Connections Pinout 
+| Component     |     ESP32 Pin     |       Function / Description    |
+|----------|-------------|--------|
+| SH1106 OLED VCC  |    3.3V       |             Display Power Supply |
+| SH1106 OLED GND  |     GND       |              Ground Reference    |
+| SH1106 OLED SDA  |   GPIO 21     |               I2C Data Line      |
+| SH1106 OLED SCL  |   GPIO 22     |               I2C Clock Line     |
+| Touch Wire       |   GPIO 4 (D4) |                Capacitive Touch (Mode Switching) |
+| Boot Button      |   GPIO 0 (D0) |              Integrated On-Board Button (Stopwatch Control) |
+|----------|-------------|--------|
+
+
 
 
 Key Libraries Used 
