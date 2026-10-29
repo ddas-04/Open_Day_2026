@@ -38,7 +38,7 @@ Hardware Connections Pinout
 | SH1106 OLED SCL  |   GPIO 22     |               I2C Clock Line     |
 | Touch Wire       |   GPIO 4 (D4) |                Capacitive Touch (Mode Switching) |
 | Boot Button      |   GPIO 0 (D0) |              Integrated On-Board Button (Stopwatch Control) |
-|----------|-------------|--------|
+
 
 
 
