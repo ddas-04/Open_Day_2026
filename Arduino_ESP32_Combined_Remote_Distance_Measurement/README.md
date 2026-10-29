@@ -25,7 +25,9 @@ Components Required
 
 Wiring & Pin Connections 
 ESP32 Central Hub 
+
 OLED SDA: GPIO 21
+
 OLED SCL: GPIO 22
 OLED VCC: 3.3V (Do not connect to 5V)
 OLED GND: GND
